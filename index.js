@@ -33,7 +33,7 @@ async function run() {
                 const limit = parseInt(req.query.limit) || 10;
                 const skip = (page - 1) * limit;
 
-                // Filters
+               
                 const searchTerm = req.query.searchTerm || '';
                 const categoryFilter = req.query.category || '';
                 const brandFilter = req.query.brand || '';
