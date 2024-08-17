@@ -63,7 +63,7 @@ async function run() {
                     query.price = { $gt: 100 };
                 }
 
-                // Sorting
+               
                 let sort = {};
                 if (sortOption === 'priceLowToHigh') {
                     sort.price = 1; // Ascending
