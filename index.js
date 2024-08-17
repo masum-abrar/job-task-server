@@ -40,7 +40,7 @@ async function run() {
                 const priceFilter = req.query.price || '';
                 const sortOption = req.query.sort || '';
 
-                // Build the query object
+              
                 let query = {};
 
                 if (searchTerm) {
